@@ -14,18 +14,16 @@
 
 body {
     min-height: 100vh;
-    /* width: 100%;
-    margin: auto; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    background: var(--Very-light-gray-bg-hdn-btn);
+    font-family: 'Lexend Deca', sans-serif; 
 }
 
 .design-limits {
+    margin: 30% auto 5%;
     width: 23.4375rem;
-    height: 93.875rem;
-    /* margin: 0 auto; */
+    height: 93.875rem;|    
 }
 
 .card-container {
@@ -33,9 +31,82 @@ body {
   height: 83rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  margin: 5.5rem auto;
 }
 
+.card__flex-column {
+  width: 100%;
+  height: 27.625rem;
+  padding: 2.875rem; 
+}
+
+.card__flex-column-o {
+  background: var(--Bright-orange);
+  border-radius: 2.5% 2.5% 0 0;
+}
+.card__flex-column-dc {
+  background: var(--Dark-cyan);
+}
+.card__flex-column-vdc {
+  background: var(--Very-dark-cyan);
+  border-radius: 0 0 2.5% 2.5%;
+}
+
+.card__flex-column-icon {
+  margin-bottom: 2.25rem;
+}
+
+.card__flex-column-title {
+  color: var(--Very-light-gray-bg-hdn-btn);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5625rem;
+}
+
+.card__flex-column-paragraph {
+  line-height: 1.5625rem;
+  color: var(--Transparent-white-p);
+  margin-bottom: 1.5625rem;
+}
+
+.card__flex-column-button {
+  width: 9.25rem;
+  height: 2.875rem;
+  border: none;
+  border-radius: 1.5625rem;
+  color: var(--Bright-orange);
+  font-size: .9375rem;
+}
+
+.card__flex-column-button:hover{
+  cursor: pointer;
+  border: .125rem solid var(--Very-light-gray-bg-hdn-btn)
+}
+
+.card__flex-column-button-o {
+  color: var(--Bright-orange);
+}
+.card__flex-column-button-dc {
+  color: var(--Dark-cyan);
+}
+.card__flex-column-button-vdc {
+  color: var(--Very-dark-cyan);
+}
+
+.card__flex-column-button-o:hover {
+  background: var(--Bright-orange);
+  color: var(--Very-light-gray-bg-hdn-btn);
+}
+.card__flex-column-button-dc:hover {
+  background-color: var(--Dark-cyan);
+  color: var(--Very-light-gray-bg-hdn-btn);
+}
+.card__flex-column-button-vdc:hover {
+  background-color: var(--Very-dark-cyan);
+  color: var(--Very-light-gray-bg-hdn-btn);
+}
 
 
 
