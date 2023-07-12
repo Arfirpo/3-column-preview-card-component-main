@@ -133,7 +133,7 @@ body {
   .card__flex-column {
     height: 100%;
     padding: 2.875rem 4.125rem 2.875rem 2.875rem;
-    letter-spacing: -.5px;
+    letter-spacing: -.0.0313rem;
   }
 
   .card__flex-column-o {
