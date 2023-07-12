@@ -1,0 +1,49 @@
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white-p: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray-bg-hdn-btn: hsl(0, 0%, 95%);
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    /* width: 100%;
+    margin: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-limits {
+    width: 23.4375rem;
+    height: 93.875rem;
+    /* margin: 0 auto; */
+}
+
+.card-container {
+  width: 20.5rem;
+  height: 83rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+.attribution {
+  font-size: .6875rem; 
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
