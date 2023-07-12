@@ -6,9 +6,7 @@
     --Very-light-gray-bg-hdn-btn: hsl(0, 0%, 95%);
 }
 
-*, 
-*::after,
-*::before {
+*, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -135,7 +133,7 @@ body {
   .card__flex-column {
     height: 100%;
     padding: 2.875rem 4.125rem 2.875rem 2.875rem;
-    letter-spacing: -0.3125rem;
+    letter-spacing: -.5px;
   }
 
   .card__flex-column-o {
