@@ -24,7 +24,7 @@ body {
 }
 
 .design-limits {
-    margin: 5% auto;
+    margin: 0 auto;
     width: 23.4375rem;
     height: 93.875rem;    
 }
@@ -130,7 +130,7 @@ body {
     width: 57.625rem;
     height: 32.625rem;
     flex-direction: row;
-    margin: 9.5% auto 3%;
+    margin: 5% auto 3%;
   }
 
   .card__flex-column {
